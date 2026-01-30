@@ -5,6 +5,90 @@
 	(uuid "cb1525b9-6596-488a-9021-20d3f9363351")
 	(paper "A4")
 	(lib_symbols
+		(symbol "New_Library:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MB1"
+				(at 2.54 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 2.54 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "beekeeb_lib:mousebites"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:pro_micro_rp2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -689,6 +773,178 @@
 						)
 					)
 					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keebio:TRRS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TRRS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TRRS_0_1"
+				(rectangle
+					(start -3.81 12.7)
+					(end 5.08 12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 0)
+					(end -3.81 12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 12.7)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 0)
+					(end -3.81 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TRRS_1_1"
+				(pin input line
+					(at -8.89 10.16 0)
+					(length 5.08)
+					(name "TIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 7.62 0)
+					(length 5.08)
+					(name "RING1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 5.08 0)
+					(length 5.08)
+					(name "RING2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1622,6 +1878,86 @@
 	)
 	(wire
 		(pts
+			(xy 254 118.11) (xy 257.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4c404c-061e-4cfb-bf72-bda8ca604c0f")
+	)
+	(wire
+		(pts
+			(xy 254 104.14) (xy 257.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d25634e-2f66-49a6-a435-3f0649a5c647")
+	)
+	(wire
+		(pts
+			(xy 195.58 41.91) (xy 199.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12984845-a777-4de3-b642-4c7c08214b02")
+	)
+	(wire
+		(pts
+			(xy 254 41.91) (xy 257.81 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f7a8cd-16ef-41a1-8bbd-406aa7de3e90")
+	)
+	(wire
+		(pts
+			(xy 254 130.81) (xy 257.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab6dd8b-1cf6-4b42-b1d1-7f8e03984299")
+	)
+	(wire
+		(pts
+			(xy 168.91 55.88) (xy 172.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da6672e-0941-4230-b12c-88a170df5482")
+	)
+	(wire
+		(pts
+			(xy 140.97 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c58bfb1-3aba-40a7-a3d4-bb39a01bb613")
+	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b95ad0-e978-4970-ab77-954feea5c3fe")
+	)
+	(wire
+		(pts
 			(xy 44.45 48.26) (xy 49.53 48.26)
 		)
 		(stroke
@@ -1629,6 +1965,256 @@
 			(type default)
 		)
 		(uuid "3e693c45-e3cb-42b2-9131-9a504bf3f570")
+	)
+	(wire
+		(pts
+			(xy 223.52 132.08) (xy 227.33 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa00399-882e-45da-8ee2-0fa7a3cb9500")
+	)
+	(wire
+		(pts
+			(xy 140.97 27.94) (xy 144.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa7a5a5-1147-4f2e-af8c-ee0926866c45")
+	)
+	(wire
+		(pts
+			(xy 223.52 69.85) (xy 227.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472dc859-cdfe-46c4-8ae4-627f68e3e3e9")
+	)
+	(wire
+		(pts
+			(xy 168.91 104.14) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d14b3a-8283-4fef-99a8-d7845eee2693")
+	)
+	(wire
+		(pts
+			(xy 223.52 57.15) (xy 227.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6481997f-3c67-405b-9de4-0c691bea3555")
+	)
+	(wire
+		(pts
+			(xy 223.52 105.41) (xy 227.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e267aef-d05a-4434-8309-70ef07a0ca76")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 257.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73508bfd-5717-4d81-914b-1fb47fdedfe6")
+	)
+	(wire
+		(pts
+			(xy 168.91 27.94) (xy 172.72 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7493ba99-b2e9-423b-ba04-53fd8e82b352")
+	)
+	(wire
+		(pts
+			(xy 254 90.17) (xy 257.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7752e3fd-a61c-42e9-86a7-cbc1cdf9239e")
+	)
+	(wire
+		(pts
+			(xy 223.52 91.44) (xy 227.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e893489-1d30-4bce-9636-91fd113bcfba")
+	)
+	(wire
+		(pts
+			(xy 140.97 118.11) (xy 144.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87cc8f50-3dd1-426d-af35-aa02926209c8")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 144.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ea52a8-5b48-462a-baa8-4e11647d7c17")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 199.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be71df81-38f7-4f2a-8e26-e84d48d91aa8")
+	)
+	(wire
+		(pts
+			(xy 254 27.94) (xy 257.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0ca27c-cc44-472a-bd03-20d16edb9578")
+	)
+	(wire
+		(pts
+			(xy 195.58 90.17) (xy 199.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1481de-d231-4589-970a-23821659ec05")
+	)
+	(wire
+		(pts
+			(xy 223.52 119.38) (xy 227.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fe42d6-4b58-43cd-bf67-3c0a26237388")
+	)
+	(wire
+		(pts
+			(xy 140.97 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca04fb52-c677-4d66-8d09-6ccf89c2d6f2")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc57a266-9edb-41b7-a3f8-aaa699e3c3e3")
+	)
+	(wire
+		(pts
+			(xy 195.58 55.88) (xy 199.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59b8b03-fb0a-4ef5-8763-5f2b1438476f")
+	)
+	(wire
+		(pts
+			(xy 223.52 43.18) (xy 227.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60a874e-4e2e-4391-a7e0-53e96eb30e3c")
+	)
+	(wire
+		(pts
+			(xy 195.58 27.94) (xy 199.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf2e683-4cc8-406e-aaa0-1fcbc594843a")
+	)
+	(wire
+		(pts
+			(xy 254 55.88) (xy 257.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22cd518-a670-4e2a-ab0d-5e2b39f47908")
+	)
+	(wire
+		(pts
+			(xy 168.91 118.11) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c1ff9e-a62e-4d6e-ad13-4642e43328e3")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 82.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0e5c74-61d7-4535-bcc9-28372ae6a396")
+	)
+	(wire
+		(pts
+			(xy 80.01 104.14) (xy 82.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec64601-18e4-4f3f-8bd7-9063e26d2fe7")
 	)
 	(wire
 		(pts
@@ -1640,15 +2226,406 @@
 		)
 		(uuid "f1844e2d-6401-4a13-87d9-129f9a452ed9")
 	)
-	(label "K1"
-		(at 144.78 27.94 0)
+	(wire
+		(pts
+			(xy 195.58 130.81) (xy 199.39 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5281101-5e6f-43c7-92f2-f6b295a0b9d1")
+	)
+	(wire
+		(pts
+			(xy 140.97 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61dccd9-40ce-4c84-b73a-05b4b66e9dfa")
+	)
+	(wire
+		(pts
+			(xy 223.52 29.21) (xy 227.33 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f925c82e-582a-4945-9ebb-194b24fd2958")
+	)
+	(wire
+		(pts
+			(xy 195.58 118.11) (xy 199.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd12ce48-2530-4888-b60b-ec8cbfab27b5")
+	)
+	(wire
+		(pts
+			(xy 168.91 41.91) (xy 172.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff25700a-7f74-4d65-8b2a-4c619630500e")
+	)
+	(label "R02"
+		(at 168.91 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c103c4af-3e6e-4cbf-873b-821208c0ab22")
+		(uuid "05a5272f-259a-46c0-a9c3-11ff47db7578")
+	)
+	(label "R11"
+		(at 140.97 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08ffe274-6238-47ce-9e58-66b3485a353f")
+	)
+	(label "R12"
+		(at 168.91 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10fc7ddf-cdaa-4c7e-b307-1a35ef4eb67d")
+	)
+	(label "L17"
+		(at 223.52 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1db09ba5-ebbd-47a8-8519-ae5698cd6877")
+	)
+	(label "L12"
+		(at 168.91 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20a31b58-d6e0-4751-8e05-28d76c36dffc")
+	)
+	(label "L05"
+		(at 254 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21167938-cb23-459d-aff0-ce4277334086")
+	)
+	(label "R10"
+		(at 254 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a289785-ce5b-4105-8527-88432461b019")
+	)
+	(label "L10"
+		(at 254 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c8481be-ce39-4217-8763-790121f172bd")
+	)
+	(label "L11"
+		(at 140.97 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e160502-1f07-49d1-9855-aa1c1880542c")
+	)
+	(label "R04"
+		(at 223.52 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31933124-e8e1-45da-899f-3a8cbff1f8dc")
+	)
+	(label "L03"
+		(at 195.58 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40c80268-c132-4a3a-853b-a2766a523f0a")
+	)
+	(label "L13"
+		(at 195.58 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42d12a56-4ca3-4dec-b791-0948e45ae68f")
+	)
+	(label "R13"
+		(at 195.58 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47d304ff-c3cc-4561-b7d6-80a7c9092285")
+	)
+	(label "L04"
+		(at 223.52 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5471037f-bf74-42cf-90ff-de129d50e4aa")
+	)
+	(label "L08"
+		(at 195.58 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54ee7405-88d1-4077-8c82-87692bbcac82")
+	)
+	(label "R02"
+		(at 82.55 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "589445f6-7b6e-4106-a2d1-749932078baf")
+	)
+	(label "L14"
+		(at 223.52 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e72644f-22d3-431f-8afa-b8f636a4bd1c")
+	)
+	(label ""
+		(at 129.54 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63aaece9-4bbc-4a4d-afb4-af43c88494e3")
+		(property "Netclass" ""
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "R09"
+		(at 223.52 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a366b58-0a6f-4464-959d-980ac9025da9")
+	)
+	(label "R03"
+		(at 195.58 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a87b8ff-aa05-4ac7-add3-679dc9901d8b")
+	)
+	(label "L18"
+		(at 254 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77fb333e-87be-4d82-acdf-e1f7763e65cb")
+	)
+	(label "R07"
+		(at 168.91 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e74e540-b882-4da1-be66-fc1c9e5b9714")
+	)
+	(label "L01"
+		(at 140.97 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8406a825-01ea-4e0c-b671-474ad64afd7a")
+	)
+	(label "R17"
+		(at 223.52 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "961ba145-c92f-4dae-943b-e9ed97a550f2")
+	)
+	(label "L02"
+		(at 168.91 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9890e8d6-24dc-43d8-a7ee-597cebdabd09")
+	)
+	(label "R08"
+		(at 195.58 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98dedcd6-25fb-4db5-ae9c-ac4214112353")
+	)
+	(label "R16"
+		(at 195.58 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9be16e46-7aa2-46a3-831d-b0c930c81507")
+	)
+	(label "R18"
+		(at 254 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dbb795e-89c2-4cf3-ab86-6935c4b26fed")
+	)
+	(label "R14"
+		(at 223.52 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3aed9bc-76a3-48e3-9996-49b9efcce116")
+	)
+	(label "R01"
+		(at 140.97 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b993a1a1-1ce4-4389-bb1f-fc44125a3a01")
+	)
+	(label "L15"
+		(at 254 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf058a6c-2870-4174-9b9c-6cce83f07738")
+	)
+	(label "L09"
+		(at 223.52 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c41b7249-d1e6-439c-8090-0da865bd8759")
+	)
+	(label "L06"
+		(at 140.97 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c82f1df4-df65-4aed-b9ef-687d642daeab")
+	)
+	(label "R05"
+		(at 254 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f399a4-e7f1-4188-a46a-7fc9103c2892")
 	)
 	(label "K1"
 		(at 44.45 48.26 0)
@@ -1659,6 +2636,316 @@
 			(justify left bottom)
 		)
 		(uuid "d2316d98-feb7-4650-93bc-61041d9c5b39")
+	)
+	(label "R01"
+		(at 82.55 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5b0990c-6e60-45e9-8678-032ff1759bcc")
+	)
+	(label "R06"
+		(at 140.97 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d3eab2-3da6-41e7-801c-39638edfc09e")
+	)
+	(label "L16"
+		(at 195.58 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee096bb9-6355-408b-94c3-b3ee0212d246")
+	)
+	(label "L07"
+		(at 168.91 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6776193-f1a8-48ef-8425-c745f0779764")
+	)
+	(label "R15"
+		(at 254 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8115083-4791-4bd8-b2aa-884595d190f4")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05316bde-5aa3-4a42-97d3-0275454bb438")
+		(property "Reference" "#PWR039"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aa20e28-cfb2-4ae9-8fc6-4b44aa70a1be")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:MountingHole")
+		(at 91.44 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "079430e7-c146-4463-8d66-f359d6f85041")
+		(property "Reference" "MB1"
+			(at 93.98 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 93.98 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:MountingHole_2.2mm_M2-8mm"
+			(at 92.202 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "MB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07fc6d36-ca8b-418b-9e7b-36cbd8f02999")
+		(property "Reference" "#PWR037"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab7e8e1c-0fc4-467b-a4ab-ea54ca4c0475")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084ef56b-a937-48fa-bea1-432a19e3fb43")
+		(property "Reference" "#PWR013"
+			(at 214.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5b76fe3-069e-4e82-9240-591f6d51ea9d")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "keysymbol:KEYSW")
@@ -1728,6 +3015,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a67b167-8cfb-4064-b957-4a1374604908")
+		(property "Reference" "#PWR034"
+			(at 214.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46195fc9-6154-4ed8-986d-43d42543f0e8")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keysymbol:KEYSW")
 		(at 265.43 104.14 0)
 		(unit 1)
@@ -1737,7 +3090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c57e2ca-4bee-4abc-806b-3c102efaa133")
-		(property "Reference" "K34"
+		(property "Reference" "K28"
 			(at 265.43 97.79 0)
 			(effects
 				(font
@@ -1788,7 +3141,7 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K34")
+					(reference "K28")
 					(unit 1)
 				)
 			)
@@ -1856,6 +3209,72 @@
 			(project ""
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
 					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b5ebc8-d24e-4bac-9936-e8c87dd4933c")
+		(property "Reference" "#PWR09"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e93322b-5d9c-4428-9050-131534b4a739")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2175,7 +3594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fbb6ad6-ad40-450d-a887-b2bd216f843f")
-		(property "Reference" "K20"
+		(property "Reference" "K24"
 			(at 152.4 97.79 0)
 			(effects
 				(font
@@ -2226,7 +3645,139 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K20")
+					(reference "K24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2210a1d9-c519-47dc-adcd-f38206962343")
+		(property "Reference" "#PWR011"
+			(at 187.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a65cc8d5-a1dd-4e79-9f29-5056533202c6")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f70f78-75f9-4874-8ada-f879bef80c2e")
+		(property "Reference" "#PWR029"
+			(at 242.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5db582e-6f5a-4c24-833d-44fd2ed39988")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2367,6 +3918,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28f6802c-9b47-45a5-a6cd-6a4ff73adb31")
+		(property "Reference" "#PWR014"
+			(at 214.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fef7fbb-b4d3-4996-810f-ecf80bdb23c1")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "294059ba-39f5-4d87-9499-ad8319e8753f")
+		(property "Reference" "#PWR020"
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f85379-43f6-4caf-bcf4-e687fad537d4")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ec3096-a9cb-4079-8160-7229760902e2")
+		(property "Reference" "#PWR024"
+			(at 273.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55a62028-26b9-4922-bc68-8757a810cd20")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keysymbol:KEYSW")
 		(at 180.34 41.91 0)
 		(unit 1)
@@ -2495,6 +4244,280 @@
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
 					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:TRRS")
+		(at 107.95 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c4ab7b-3afc-4e21-8fae-0d3311fae3e0")
+		(property "Reference" "U4"
+			(at 114.3 99.0599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TRRS"
+			(at 114.3 101.5999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:TRRS-PJ-320A"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "145fddfa-9104-4978-9bd2-0af628286fbc")
+		)
+		(pin "2"
+			(uuid "a59126dd-471e-40a7-a01a-05fd5c345fa3")
+		)
+		(pin "3"
+			(uuid "d847c638-89c8-48e9-89a9-9bd6368d7b85")
+		)
+		(pin "1"
+			(uuid "b65c98f0-19da-4b0a-886a-21434503e882")
+		)
+		(instances
+			(project ""
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aae8e6a-9103-4fac-87ad-34ac01ca7aa9")
+		(property "Reference" "#PWR07"
+			(at 160.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eab4dc3-81e8-42c0-ab31-1aca7765fa78")
+		)
+		(instances
+			(project ""
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac024a0-ce56-438a-86fa-a6be2ebd3278")
+		(property "Reference" "#PWR031"
+			(at 242.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "406000a9-d81e-4eaf-ab00-3460b140226d")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba164bc-fe39-47dd-847d-3003057943ca")
+		(property "Reference" "#PWR022"
+			(at 273.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e018f150-e5be-4c50-86cb-c4c50211dcc8")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2701,6 +4724,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 273.05 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cce8737-d4a7-41f5-b19b-a70433f1e7d8")
+		(property "Reference" "#PWR025"
+			(at 273.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6c2ba25-b59c-4d95-b145-c0270b94af01")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f7be12a-4c64-437c-9d87-d445db6da965")
+		(property "Reference" "#PWR08"
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a856dcd-c777-4cdc-98e0-d9e00165d913")
+		)
+		(instances
+			(project ""
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keysymbol:KEYSW")
 		(at 207.01 55.88 0)
 		(unit 1)
@@ -2762,6 +4917,72 @@
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
 					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65336bd5-3e20-4693-88c0-64d3f29245d3")
+		(property "Reference" "#PWR016"
+			(at 214.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1106b8c6-07d8-4cd4-94d7-8b21b9af38b9")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2844,7 +5065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6842b9a4-c367-4111-888e-cc45f3e85b74")
-		(property "Reference" "K33"
+		(property "Reference" "K23"
 			(at 265.43 83.82 0)
 			(effects
 				(font
@@ -2895,7 +5116,7 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K33")
+					(reference "K23")
 					(unit 1)
 				)
 			)
@@ -2911,7 +5132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74d4026d-f4ba-4991-90be-553b0e95d806")
-		(property "Reference" "K31"
+		(property "Reference" "K32"
 			(at 234.95 113.03 0)
 			(effects
 				(font
@@ -2962,7 +5183,73 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K31")
+					(reference "K32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "765763bd-2096-4cca-af71-8ebce80316ad")
+		(property "Reference" "#PWR036"
+			(at 214.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29941cf6-d618-4ce6-9ee5-336bf6b57ee0")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3102,6 +5389,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "849764f5-e5f3-47f2-b697-97072db4b916")
+		(property "Reference" "#PWR010"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9eda07d-7e0c-4988-a431-59b47ca7ae38")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keysymbol:KEYSW")
 		(at 207.01 130.81 0)
 		(unit 1)
@@ -3111,7 +5464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b8317d2-1328-460f-b0c1-4632ad8145d5")
-		(property "Reference" "K28"
+		(property "Reference" "K34"
 			(at 207.01 124.46 0)
 			(effects
 				(font
@@ -3162,7 +5515,73 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K28")
+					(reference "K34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "958f9871-392d-4099-9b32-09ccb15d4906")
+		(property "Reference" "#PWR026"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85e52c81-0e7f-42ee-93bb-49042593ff56")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3604,6 +6023,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa1c9ee6-6bfb-4373-a80c-001a5ca3b0ef")
+		(property "Reference" "#PWR040"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb17ebbb-6105-42b8-bbc0-2e8665327924")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keysymbol:KEYSW")
 		(at 180.34 118.11 0)
 		(unit 1)
@@ -3613,7 +6098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab2e2876-51ae-41d1-a49b-58051005e7a4")
-		(property "Reference" "K24"
+		(property "Reference" "K30"
 			(at 180.34 111.76 0)
 			(effects
 				(font
@@ -3664,7 +6149,73 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K24")
+					(reference "K30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd8c81f-9cd4-4d5a-842a-4cf7f3980ac7")
+		(property "Reference" "#PWR028"
+			(at 273.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03b677ef-bf80-46ce-b0de-c00219a2557e")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3680,7 +6231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2d1a81c-7808-44cc-81df-1c79ac08acb9")
-		(property "Reference" "K21"
+		(property "Reference" "K29"
 			(at 152.4 111.76 0)
 			(effects
 				(font
@@ -3731,7 +6282,73 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K21")
+					(reference "K29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36ef816-91ff-4ef3-b6fc-f3e161af2d40")
+		(property "Reference" "#PWR021"
+			(at 273.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba856f43-0c46-430e-b2f0-04baac6a12bd")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3814,7 +6431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbffd9fd-6fe3-49f4-a04c-c8f086335152")
-		(property "Reference" "K25"
+		(property "Reference" "K21"
 			(at 207.01 83.82 0)
 			(effects
 				(font
@@ -3865,7 +6482,271 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K25")
+					(reference "K21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24a3cc8-5ef3-44e4-8b74-ace80665f42c")
+		(property "Reference" "#PWR030"
+			(at 242.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05111ec0-cfd6-4fe9-b8ea-bc3b54a5ba44")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c52b0be1-9b30-407d-be58-3d86469aff1c")
+		(property "Reference" "#PWR023"
+			(at 273.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e067502-3fbe-45e8-8ba4-0a794bb439c3")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f40bd8-d558-455d-bada-271bafd2a232")
+		(property "Reference" "#PWR027"
+			(at 273.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48a5096b-1fd1-4601-b857-9b8564f59442")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce19ff82-ac0d-4d0c-94f1-7d6b6b19d7fb")
+		(property "Reference" "#PWR017"
+			(at 242.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6b39431-6ff3-4204-9bae-7903d21aeff5")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3999,6 +6880,72 @@
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
 					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5095428-9e48-4278-9894-131d80ff15a3")
+		(property "Reference" "#PWR042"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5518b14-87a9-4d4a-a4a6-f70a646fa9b8")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4148,7 +7095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9944c23-c643-40b8-af17-dae97d703870")
-		(property "Reference" "K23"
+		(property "Reference" "K25"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -4199,7 +7146,73 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K23")
+					(reference "K25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dde9cda1-fed1-4316-8572-9492c6a9cdca")
+		(property "Reference" "#PWR041"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cce82926-2563-4135-8b84-c1138fec2035")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4215,7 +7228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deecf422-a56d-410b-a0a0-f8d719f601aa")
-		(property "Reference" "K22"
+		(property "Reference" "K20"
 			(at 180.34 83.82 0)
 			(effects
 				(font
@@ -4266,7 +7279,149 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K22")
+					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e149d2a6-a683-410f-841d-26a7b2f6d0a6")
+		(property "Reference" "#PWR035"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaa9d6fa-6861-434b-bfc1-bbd4ed91cd5d")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:TRRS")
+		(at 104.14 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e57a67fb-6ad8-4cbb-bfab-aadb15e09363")
+		(property "Reference" "U3"
+			(at 110.49 63.4999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TRRS"
+			(at 110.49 66.0399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:TRRS-PJ-320A"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4957bd69-0b53-48ad-abed-b15a09778e4d")
+		)
+		(pin "4"
+			(uuid "fb87cca3-9a6b-476a-a7d1-a879820e644a")
+		)
+		(pin "1"
+			(uuid "58683803-0648-43a4-be39-769858585f13")
+		)
+		(pin "3"
+			(uuid "f8c1dc73-685c-447f-98cf-7fa432460cf4")
+		)
+		(instances
+			(project ""
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4340,6 +7495,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a96414-5cd0-4ea8-91fa-8cc85556ce3d")
+		(property "Reference" "#PWR015"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c9eb8a7-6512-4803-abbc-ea6a9e44176f")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keysymbol:KEYSW")
 		(at 234.95 132.08 0)
 		(unit 1)
@@ -4349,7 +7570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb0ed55f-5fbb-4e7c-b2df-caa78df7f09c")
-		(property "Reference" "K32"
+		(property "Reference" "K35"
 			(at 234.95 125.73 0)
 			(effects
 				(font
@@ -4400,7 +7621,139 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K32")
+					(reference "K35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec161f38-1cad-48cd-b630-8a19c85acee0")
+		(property "Reference" "#PWR038"
+			(at 187.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5034988-2601-42f4-8f7e-a796253b773c")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec16fdf4-e922-4904-bfbe-b7a4fcf398ea")
+		(property "Reference" "#PWR032"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "658b12ec-8baa-479f-a3e3-d48cfa43cbfe")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4416,7 +7769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f29c5102-1c2c-44e8-9087-cb067a08f6a9")
-		(property "Reference" "K27"
+		(property "Reference" "K31"
 			(at 207.01 111.76 0)
 			(effects
 				(font
@@ -4467,7 +7820,7 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K27")
+					(reference "K31")
 					(unit 1)
 				)
 			)
@@ -4541,6 +7894,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e666f8-508c-4800-aeb1-16da6a23404d")
+		(property "Reference" "#PWR033"
+			(at 214.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8704b9f6-b79d-40c6-8a9c-f81de401450c")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f551717a-7a29-4cd1-a793-b877dc412928")
+		(property "Reference" "#PWR018"
+			(at 242.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb8b266c-64d7-4a85-9b66-5ce9ee32f707")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keysymbol:KEYSW")
 		(at 234.95 105.41 0)
 		(unit 1)
@@ -4550,7 +8035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6331fe0-0f85-4030-bc5a-68a4734db082")
-		(property "Reference" "K30"
+		(property "Reference" "K27"
 			(at 234.95 99.06 0)
 			(effects
 				(font
@@ -4601,7 +8086,73 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K30")
+					(reference "K27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0285fb-becf-4653-a99d-b823499ee9e6")
+		(property "Reference" "#PWR019"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "052df31f-c171-464b-9dc6-1108d9cc1e0c")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4617,7 +8168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb64e9f1-87d2-4c49-91d1-279577c25748")
-		(property "Reference" "K29"
+		(property "Reference" "K22"
 			(at 234.95 85.09 0)
 			(effects
 				(font
@@ -4668,7 +8219,73 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K29")
+					(reference "K22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc91e2c5-2ab2-49fc-a21f-d00c5a0accf9")
+		(property "Reference" "#PWR012"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c49315c7-881e-4516-aad8-9a40fa41f052")
+		)
+		(instances
+			(project "KalyPCB"
+				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4750,7 +8367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd62cfb6-e0c1-47c1-976b-bd4d7e4f0ee3")
-		(property "Reference" "K35"
+		(property "Reference" "K33"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -4801,7 +8418,7 @@
 		(instances
 			(project "KalyPCB"
 				(path "/cb1525b9-6596-488a-9021-20d3f9363351"
-					(reference "K35")
+					(reference "K33")
 					(unit 1)
 				)
 			)
